@@ -2,10 +2,10 @@ from tweepy.streaming import StreamListener
 from tweepy import Stream
 from tweepy import OAuthHandler
 
-consumerKey='yAXlgXMqCtKLRiesMxExI9S36'
-consumerSecret='4Plwv4Eqchk3j2GmXS8h08sVa4nPkfODhGfngA4KZbEs4k7r6i'
-accessToken='1234903159283126272-yt7ah1dfODB0Wx9q1nnf5cApgVggLy'
-accessTokenSecret='kv2pHHXShpabzyTwkyXPdIIIVgUGMUgeQfDIPuVvNRpz1'
+consumerKey='use your consumerkey'
+consumerSecret='use your consumerSecret'
+accessToken='use your consumer access Token'
+accessTokenSecret='use your consumer access Token secret'
 
 class Stdlis(StreamListener):
     def on_error(self,status):
