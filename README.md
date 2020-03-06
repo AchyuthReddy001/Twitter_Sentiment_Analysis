@@ -33,3 +33,6 @@ text2=TextBlob("I am a bad programmer")
 text.polarity
 
 output:-1
+
+
+here polarity ==+1 it is positive and -1 negative and 0 then it is netural
