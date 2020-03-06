@@ -7,11 +7,10 @@ def percentage(part, whole):
     temp = 100 * float(part) / float(whole)
     return format(temp, '.2f')
 
-consumerKey='yAXlgXMqCtKLRiesMxExI9S36'
-consumerSecret='4Plwv4Eqchk3j2GmXS8h08sVa4nPkfODhGfngA4KZbEs4k7r6i'
-accessToken='1234903159283126272-yt7ah1dfODB0Wx9q1nnf5cApgVggLy'
-accessTokenSecret='kv2pHHXShpabzyTwkyXPdIIIVgUGMUgeQfDIPuVvNRpz1'
-
+consumerKey='use your consumerkey'
+consumerSecret='use your consumerSecret'
+accessToken='use your consumer access Token'
+accessTokenSecret='use your consumer access Token secret'
 
 auth=tweepy.OAuthHandler(consumer_key=consumerKey,consumer_secret=consumerSecret)
 auth.set_access_token(accessToken,accessTokenSecret)
